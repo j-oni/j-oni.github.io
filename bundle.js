@@ -46,31 +46,44 @@
 
 	"use strict";
 
-	var _jquery = __webpack_require__(1);
+	__webpack_require__(1);
 
-	var _jquery2 = _interopRequireDefault(_jquery);
+	var $ = __webpack_require__(5);
 
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	// ABOUT SLIDER
 
-	__webpack_require__(2);
 
-	(0, _jquery2.default)(".about a").on("click", function () {
-	  var $span = (0, _jquery2.default)(this).siblings().find("span.extended");
-	  if ((0, _jquery2.default)(this).html() === "Read more...") {
-	    $span.slideDown(1000).animate({ opacity: 1 }, 500);
-	    (0, _jquery2.default)(this).html("Read less...");
-	  } else {
-	    $span.animate({ opacity: 0 }, 500).slideUp(1000);
-	    (0, _jquery2.default)(this).html("Read more...");
-	  }
+	$(".switch").on("click", function () {
+		var $current = $(this).parent();
+		var $new = $current.siblings();
+
+		$current.addClass("animate-out");
+
+		setTimeout(function () {
+			$current.removeClass("animate-out active");
+			$new.addClass("animate-in");
+		}, 600);
+
+		setTimeout(function () {
+			$new.removeClass("animate-in").addClass("active");
+		}, 900);
 	});
 
-	(0, _jquery2.default)(".songs a").on("click", function () {
-	  $song = (0, _jquery2.default)(this).parent().siblings().slideToggle(1000);
+	$(".songs a").on("click", function () {
+		$(this).parent().siblings().slideToggle(1000);
 	});
 
 /***/ },
 /* 1 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 2 */,
+/* 3 */,
+/* 4 */,
+/* 5 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -10294,12 +10307,6 @@
 	return jQuery;
 	} );
 
-
-/***/ },
-/* 2 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
 
 /***/ }
 /******/ ]);

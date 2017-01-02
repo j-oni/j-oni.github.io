@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);@import url(https://fonts.googleapis.com/css?family=Crimson+Text);body {
+  background-color: black;
+  color: white; }
+
+* {
+  box-sizing: border-box;
+  font-family: "Crimson Text", serif;
+  margin: 0; }
+
+header {
+  position: relative;
+  height: 100vh;
+  background: url(https://pbs.twimg.com/media/Cw-QqhDXAAAebLz.jpg) 80%/auto 80% no-repeat white; }
+  header .name {
+    position: absolute;
+    width: 680px;
+    height: 180px;
+    margin-bottom: -90px;
+    margin-left: -340px;
+    left: 50%;
+    bottom: 10%;
+    padding: 10px 20px;
+    border: 10px double black;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 2em; }
+    @media screen and (min-width: 1025px) {
+      header .name {
+        font-size: 1.2em;
+        width: 430px;
+        margin-left: -215px;
+        height: 120px;
+        margin-bottom: -60px;
+        left: 30%;
+        bottom: 45%; } }
+
+main.container {
+  margin: 15px; }
+
+.about-module {
+  min-height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-perspective: 2000px;
+          perspective: 2000px; }
+  .about-module div {
+    display: none;
+    min-height: 100%;
+    width: 100%;
+    padding: 30px 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: 6px groove skyblue; }
+    .about-module div p {
+      max-width: 80%;
+      text-align: justify;
+      font-size: 1rem; }
+    .about-module div a {
+      background-color: transparent;
+      color: white;
+      display: block;
+      margin: 20px 0 20px;
+      padding: 10px 20px;
+      min-width: 220px;
+      border: none;
+      font-size: 1.2rem;
+      text-align: center;
+      text-decoration: none; }
+      .about-module div a:hover {
+        background-color: skyblue;
+        color: black;
+        -webkit-transition: 300ms;
+        transition: 300ms; }
+  .about-module .active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+.animate-out {
+  -webkit-animation: out 600ms ease-in-out forwards;
+          animation: out 600ms ease-in-out forwards;
+  -webkit-transform-origin: left;
+          transform-origin: left; }
+
+@-webkit-keyframes out {
+  0% {
+    -webkit-transform: translateX(0) scale(1) rotateY(0) translateZ();
+            transform: translateX(0) scale(1) rotateY(0) translateZ();
+    opacity: 1; }
+  100% {
+    -webkit-transform: translateX(0) scale(1) rotateY(90deg) translateZ(-1000px);
+            transform: translateX(0) scale(1) rotateY(90deg) translateZ(-1000px);
+    opacity: 1; } }
+
+@keyframes out {
+  0% {
+    -webkit-transform: translateX(0) scale(1) rotateY(0) translateZ();
+            transform: translateX(0) scale(1) rotateY(0) translateZ();
+    opacity: 1; }
+  100% {
+    -webkit-transform: translateX(0) scale(1) rotateY(90deg) translateZ(-1000px);
+            transform: translateX(0) scale(1) rotateY(90deg) translateZ(-1000px);
+    opacity: 1; } }
+
+.about {
+  margin: 20px 20px 30px;
+  padding: 20px 20px 30px;
+  position: relative;
+  text-align: justify;
+  border: 6px groove skyblue; }
+  .about p span.extended {
+    display: none;
+    color: skyblue; }
+  .about a {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white; }
+    .about a:hover {
+      background-color: skyblue;
+      color: black;
+      -webkit-transition: 400ms;
+      transition: 400ms; }
+
+.songs {
+  text-align: center; }
+
+.songs h2 {
+  margin: 40px 0; }
+  .songs h2 a {
+    text-decoration: none;
+    color: white; }
+    .songs h2 a:hover, .songs h2 a:active {
+      color: skyblue; }
+
+.songs p {
+  display: none; }
