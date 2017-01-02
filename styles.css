@@ -1,13 +1,49 @@
-h1 {
-  color: blue;
-  background-color: yellow;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-  -webkit-transform-origin: bottom right;
-          transform-origin: bottom right; }
-  h1:hover {
-    color: black; }
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);body {
+  background-color: black;
+  color: white; }
 
-h3 {
-  color: green;
-  background-color: orange; }
+header {
+  position: relative;
+  height: 100vh;
+  background: url(http://img.wennermedia.com/social/bob-dylan-1966-e6c3b40c-ce5d-4fae-8eff-617df710e499.jpg) 37%/auto 100% no-repeat #0c0c0c;
+  -webkit-filter: blur(1px);
+          filter: blur(1px); }
+  header h1 {
+    position: absolute;
+    font-family: 'Shadows Into Light';
+    top: 0;
+    left: 45%;
+    font-size: 15vh;
+    margin-top: 6vh;
+    color: skyblue; }
+
+.about {
+  padding: 40px 5% 60px;
+  position: relative;
+  text-align: justify; }
+  .about p span.extended {
+    display: none;
+    color: skyblue;
+    opacity: 0; }
+  .about a {
+    position: absolute;
+    bottom: 30px;
+    right: 5%;
+    text-decoration: none;
+    color: white; }
+    .about a:hover, .about a:active {
+      color: skyblue; }
+
+.songs {
+  text-align: center; }
+
+.songs h2 {
+  margin: 40px 0; }
+  .songs h2 a {
+    text-decoration: none;
+    color: white; }
+    .songs h2 a:hover, .songs h2 a:active {
+      color: skyblue; }
+
+.songs p {
+  display: none; }
