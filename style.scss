@@ -1,0 +1,16 @@
+$color: olive;
+
+h1 {
+	color: $color;
+	background-color: maroon;
+	transform: rotate(-30deg);
+	transform-origin: bottom right;
+	&:hover {
+		color: black;
+	}
+}
+
+h3 {
+	color: green;
+	background-color: orange;
+}
