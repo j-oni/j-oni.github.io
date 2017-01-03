@@ -53,24 +53,24 @@
 	// ABOUT SLIDER
 
 
-	$(".switch").on("click", function () {
-		var $current = $(this).parent();
-		var $new = $current.siblings();
+	$(".quotes-module span").on("click", function () {
+		var $current = $(this).parent().find(".active");
 
-		$current.addClass("animate-out");
+		$current.removeClass("active");
 
-		setTimeout(function () {
-			$current.removeClass("animate-out active");
-			$new.addClass("animate-in");
-		}, 600);
-
-		setTimeout(function () {
-			$new.removeClass("animate-in").addClass("active");
-		}, 900);
-	});
-
-	$(".songs a").on("click", function () {
-		$(this).parent().siblings().slideToggle(1000);
+		if ($(this).hasClass("before")) {
+			if ($current.index() > 1) {
+				$current.prev("p").addClass("active");
+			} else {
+				$current.siblings("p:last-of-type").addClass("active");
+			}
+		} else {
+			if ($current.index() < 5) {
+				$current.next("p").addClass("active");
+			} else {
+				$current.siblings("p:first-of-type").addClass("active");
+			}
+		}
 	});
 
 /***/ },

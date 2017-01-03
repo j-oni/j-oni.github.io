@@ -1,6 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);@import url(https://fonts.googleapis.com/css?family=Crimson+Text);body {
-  background-color: black;
-  color: white; }
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:700|Crimson+Text);body {
+  background-color: white; }
 
 * {
   box-sizing: border-box;
@@ -13,10 +12,10 @@ header {
   background: url(https://pbs.twimg.com/media/Cw-QqhDXAAAebLz.jpg) 80%/auto 80% no-repeat white; }
   header .name {
     position: absolute;
-    width: 680px;
-    height: 180px;
-    margin-bottom: -90px;
-    margin-left: -340px;
+    width: 310px;
+    height: 90px;
+    margin-left: -155px;
+    margin-bottom: -45px;
     left: 50%;
     bottom: 10%;
     padding: 10px 20px;
@@ -24,19 +23,91 @@ header {
     background-color: white;
     color: black;
     text-align: center;
-    font-size: 2em; }
-    @media screen and (min-width: 1025px) {
+    font-size: 0.8em; }
+    header .name h1 {
+      margin: auto;
+      padding: 0; }
+    header .name span {
+      margin: auto;
+      padding: 0; }
+    @media screen and (min-width: 768px) {
       header .name {
         font-size: 1.2em;
         width: 430px;
         margin-left: -215px;
         height: 120px;
-        margin-bottom: -60px;
-        left: 30%;
-        bottom: 45%; } }
+        margin-bottom: -60px; } }
+  @media screen and (min-width: 768px) and (min-width: 992px) and (orientation: landscape) {
+    header .name {
+      left: 30%;
+      bottom: 45%; } }
 
-main.container {
+main {
   margin: 15px; }
+
+.quotes-module {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh; }
+  @media screen and (min-width: 1200px) {
+    .quotes-module {
+      background: url(http://images.clipartpanda.com/vintage-microphone-stand-clip-art-microphone.svg) 0% 50%/auto 70% no-repeat; } }
+  .quotes-module blockquote {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 70%;
+    min-height: 30vh;
+    font-size: 1em;
+    text-align: justify; }
+    @media screen and (min-width: 768px) {
+      .quotes-module blockquote {
+        font-size: 1.5em;
+        min-height: 20vh; } }
+  @media screen and (min-width: 768px) and (min-width: 1200px) {
+    .quotes-module blockquote {
+      width: 40%;
+      margin-left: 40%;
+      margin-bottom: 20vh; } }
+    .quotes-module blockquote .before {
+      position: absolute;
+      left: -15%;
+      bottom: 40%;
+      font-size: 2em;
+      font-family: 'Amatic SC', cursive;
+      font-weight: bolder; }
+    .quotes-module blockquote .after {
+      position: absolute;
+      right: -15%;
+      bottom: 40%;
+      font-size: 2em;
+      font-family: 'Amatic SC', cursive;
+      font-weight: bolder; }
+    .quotes-module blockquote p {
+      display: none; }
+      .quotes-module blockquote p.active {
+        display: block; }
+    .quotes-module blockquote footer {
+      position: absolute;
+      right: 10%;
+      top: 100%; }
+      .quotes-module blockquote footer:before {
+        content: "-"; }
 
 .about-module {
   min-height: 80vh;
