@@ -46,9 +46,9 @@
 
 	"use strict";
 
-	__webpack_require__(1);
+	// require('../style/style.scss');
 
-	var $ = __webpack_require__(5);
+	var $ = __webpack_require__(1);
 
 	var $lights = $("#box").children();
 
@@ -74,15 +74,6 @@
 
 /***/ },
 /* 1 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 2 */,
-/* 3 */,
-/* 4 */,
-/* 5 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
