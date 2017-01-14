@@ -54,26 +54,23 @@
 
 	console.log($lights);
 
-	// setInterval(function() {
-	// 	var randomNumb = Math.floor(Math.random() * 37);
-	// 	var $randomLight = $lights.eq(randomNumb);
-	// 	$randomLight.toggleClass("active");
+	setInterval(function () {
+		var randomNumb = Math.floor(Math.random() * 37);
+		var $randomLight = $lights.eq(randomNumb);
+		$randomLight.toggleClass("active");
+	}, 1000);
 
-	// }, 1000);
+	setInterval(function () {
+		var randomNumb = Math.floor(Math.random() * 37);
+		var $randomLight = $lights.eq(randomNumb);
+		$randomLight.toggleClass("active");
+	}, 500);
 
-	// setInterval(function() {
-	// 	var randomNumb = Math.floor(Math.random() * 37);
-	// 	var $randomLight = $lights.eq(randomNumb);
-	// 	$randomLight.toggleClass("active");
-
-	// }, 500);
-
-	// setInterval(function() {
-	// 	var randomNumb = Math.floor(Math.random() * 37);
-	// 	var $randomLight = $lights.eq(randomNumb);
-	// 	$randomLight.toggleClass("active");
-
-	// }, 800);
+	setInterval(function () {
+		var randomNumb = Math.floor(Math.random() * 37);
+		var $randomLight = $lights.eq(randomNumb);
+		$randomLight.toggleClass("active");
+	}, 800);
 
 /***/ },
 /* 1 */

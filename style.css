@@ -47,28 +47,28 @@ body {
   height: 0.6vmin; }
 
 #lo-1 {
-  background-color: rgba(131, 0, 107, 0.5);
-  box-shadow: 0 0 0.1vh 0vh #b5049d, 0 0 0.4vh 0 rgba(161, 0, 137, 0.6); }
+  background-color: rgba(199, 173, 2, 0.5);
+  box-shadow: 0 0 0.1vh 0vh #f9df34, 0 0 0.4vh 0 rgba(229, 203, 32, 0.6); }
 
 .active #lo-1 {
-  -webkit-animation: s-blink-3 1s forwards infinite;
-          animation: s-blink-3 1s forwards infinite; }
+  -webkit-animation: s-blink-2 1s forwards infinite;
+          animation: s-blink-2 1s forwards infinite; }
 
 #lo-2 {
-  background-color: rgba(131, 0, 107, 0.5);
-  box-shadow: 0 0 0.1vh 0vh #b5049d, 0 0 0.4vh 0 rgba(161, 0, 137, 0.6); }
+  background-color: rgba(0, 98, 155, 0.5);
+  box-shadow: 0 0 0.1vh 0vh #0294cd, 0 0 0.4vh 0 rgba(0, 128, 185, 0.6); }
 
 .active #lo-2 {
-  -webkit-animation: s-blink-3 1s forwards infinite;
-          animation: s-blink-3 1s forwards infinite; }
+  -webkit-animation: s-blink-1 1s forwards infinite;
+          animation: s-blink-1 1s forwards infinite; }
 
 #lo-3 {
-  background-color: rgba(131, 0, 107, 0.5);
-  box-shadow: 0 0 0.1vh 0vh #b5049d, 0 0 0.4vh 0 rgba(161, 0, 137, 0.6); }
+  background-color: rgba(0, 98, 155, 0.5);
+  box-shadow: 0 0 0.1vh 0vh #0294cd, 0 0 0.4vh 0 rgba(0, 128, 185, 0.6); }
 
 .active #lo-3 {
-  -webkit-animation: s-blink-3 1s forwards infinite;
-          animation: s-blink-3 1s forwards infinite; }
+  -webkit-animation: s-blink-1 1s forwards infinite;
+          animation: s-blink-1 1s forwards infinite; }
 
 #lo-4 {
   background-color: rgba(0, 98, 155, 0.5);
@@ -87,36 +87,36 @@ body {
           animation: s-blink-3 1s forwards infinite; }
 
 #lo-6 {
-  background-color: rgba(199, 173, 2, 0.5);
-  box-shadow: 0 0 0.1vh 0vh #f9df34, 0 0 0.4vh 0 rgba(229, 203, 32, 0.6); }
-
-.active #lo-6 {
-  -webkit-animation: s-blink-2 1s forwards infinite;
-          animation: s-blink-2 1s forwards infinite; }
-
-#lo-7 {
-  background-color: rgba(131, 0, 107, 0.5);
-  box-shadow: 0 0 0.1vh 0vh #b5049d, 0 0 0.4vh 0 rgba(161, 0, 137, 0.6); }
-
-.active #lo-7 {
-  -webkit-animation: s-blink-3 1s forwards infinite;
-          animation: s-blink-3 1s forwards infinite; }
-
-#lo-8 {
   background-color: rgba(0, 98, 155, 0.5);
   box-shadow: 0 0 0.1vh 0vh #0294cd, 0 0 0.4vh 0 rgba(0, 128, 185, 0.6); }
 
-.active #lo-8 {
+.active #lo-6 {
   -webkit-animation: s-blink-1 1s forwards infinite;
           animation: s-blink-1 1s forwards infinite; }
 
-#lo-9 {
+#lo-7 {
   background-color: rgba(199, 173, 2, 0.5);
   box-shadow: 0 0 0.1vh 0vh #f9df34, 0 0 0.4vh 0 rgba(229, 203, 32, 0.6); }
 
-.active #lo-9 {
+.active #lo-7 {
   -webkit-animation: s-blink-2 1s forwards infinite;
           animation: s-blink-2 1s forwards infinite; }
+
+#lo-8 {
+  background-color: rgba(199, 173, 2, 0.5);
+  box-shadow: 0 0 0.1vh 0vh #f9df34, 0 0 0.4vh 0 rgba(229, 203, 32, 0.6); }
+
+.active #lo-8 {
+  -webkit-animation: s-blink-2 1s forwards infinite;
+          animation: s-blink-2 1s forwards infinite; }
+
+#lo-9 {
+  background-color: rgba(0, 98, 155, 0.5);
+  box-shadow: 0 0 0.1vh 0vh #0294cd, 0 0 0.4vh 0 rgba(0, 128, 185, 0.6); }
+
+.active #lo-9 {
+  -webkit-animation: s-blink-1 1s forwards infinite;
+          animation: s-blink-1 1s forwards infinite; }
 
 #lo-10 {
   background-color: rgba(0, 98, 155, 0.5);
@@ -127,12 +127,12 @@ body {
           animation: s-blink-1 1s forwards infinite; }
 
 #lo-11 {
-  background-color: rgba(199, 173, 2, 0.5);
-  box-shadow: 0 0 0.1vh 0vh #f9df34, 0 0 0.4vh 0 rgba(229, 203, 32, 0.6); }
+  background-color: rgba(0, 98, 155, 0.5);
+  box-shadow: 0 0 0.1vh 0vh #0294cd, 0 0 0.4vh 0 rgba(0, 128, 185, 0.6); }
 
 .active #lo-11 {
-  -webkit-animation: s-blink-2 1s forwards infinite;
-          animation: s-blink-2 1s forwards infinite; }
+  -webkit-animation: s-blink-1 1s forwards infinite;
+          animation: s-blink-1 1s forwards infinite; }
 
 #lo-12 {
   background-color: rgba(199, 173, 2, 0.5);
@@ -143,12 +143,12 @@ body {
           animation: s-blink-2 1s forwards infinite; }
 
 #lo-13 {
-  background-color: rgba(199, 173, 2, 0.5);
-  box-shadow: 0 0 0.1vh 0vh #f9df34, 0 0 0.4vh 0 rgba(229, 203, 32, 0.6); }
+  background-color: rgba(131, 0, 107, 0.5);
+  box-shadow: 0 0 0.1vh 0vh #b5049d, 0 0 0.4vh 0 rgba(161, 0, 137, 0.6); }
 
 .active #lo-13 {
-  -webkit-animation: s-blink-2 1s forwards infinite;
-          animation: s-blink-2 1s forwards infinite; }
+  -webkit-animation: s-blink-3 1s forwards infinite;
+          animation: s-blink-3 1s forwards infinite; }
 
 #lo-14 {
   background-color: rgba(199, 173, 2, 0.5);
@@ -167,36 +167,36 @@ body {
           animation: s-blink-2 1s forwards infinite; }
 
 #lo-16 {
-  background-color: rgba(131, 0, 107, 0.5);
-  box-shadow: 0 0 0.1vh 0vh #b5049d, 0 0 0.4vh 0 rgba(161, 0, 137, 0.6); }
-
-.active #lo-16 {
-  -webkit-animation: s-blink-3 1s forwards infinite;
-          animation: s-blink-3 1s forwards infinite; }
-
-#lo-17 {
   background-color: rgba(0, 98, 155, 0.5);
   box-shadow: 0 0 0.1vh 0vh #0294cd, 0 0 0.4vh 0 rgba(0, 128, 185, 0.6); }
 
-.active #lo-17 {
+.active #lo-16 {
   -webkit-animation: s-blink-1 1s forwards infinite;
           animation: s-blink-1 1s forwards infinite; }
 
-#lo-18 {
-  background-color: rgba(131, 0, 107, 0.5);
-  box-shadow: 0 0 0.1vh 0vh #b5049d, 0 0 0.4vh 0 rgba(161, 0, 137, 0.6); }
-
-.active #lo-18 {
-  -webkit-animation: s-blink-3 1s forwards infinite;
-          animation: s-blink-3 1s forwards infinite; }
-
-#lo-19 {
+#lo-17 {
   background-color: rgba(199, 173, 2, 0.5);
   box-shadow: 0 0 0.1vh 0vh #f9df34, 0 0 0.4vh 0 rgba(229, 203, 32, 0.6); }
 
-.active #lo-19 {
+.active #lo-17 {
   -webkit-animation: s-blink-2 1s forwards infinite;
           animation: s-blink-2 1s forwards infinite; }
+
+#lo-18 {
+  background-color: rgba(199, 173, 2, 0.5);
+  box-shadow: 0 0 0.1vh 0vh #f9df34, 0 0 0.4vh 0 rgba(229, 203, 32, 0.6); }
+
+.active #lo-18 {
+  -webkit-animation: s-blink-2 1s forwards infinite;
+          animation: s-blink-2 1s forwards infinite; }
+
+#lo-19 {
+  background-color: rgba(131, 0, 107, 0.5);
+  box-shadow: 0 0 0.1vh 0vh #b5049d, 0 0 0.4vh 0 rgba(161, 0, 137, 0.6); }
+
+.active #lo-19 {
+  -webkit-animation: s-blink-3 1s forwards infinite;
+          animation: s-blink-3 1s forwards infinite; }
 
 #lo-20 {
   background-color: rgba(199, 173, 2, 0.5);
