@@ -50,28 +50,30 @@
 
 	var $ = __webpack_require__(5);
 
-	// ABOUT SLIDER
+	var $lights = $("#box").children();
 
+	console.log($lights);
 
-	$(".quotes-module span").on("click", function () {
-		var $current = $(this).parent().find(".active");
+	// setInterval(function() {
+	// 	var randomNumb = Math.floor(Math.random() * 37);
+	// 	var $randomLight = $lights.eq(randomNumb);
+	// 	$randomLight.toggleClass("active");
 
-		$current.removeClass("active");
+	// }, 1000);
 
-		if ($(this).hasClass("before")) {
-			if ($current.index() > 1) {
-				$current.prev("p").addClass("active");
-			} else {
-				$current.siblings("p:last-of-type").addClass("active");
-			}
-		} else {
-			if ($current.index() < 5) {
-				$current.next("p").addClass("active");
-			} else {
-				$current.siblings("p:first-of-type").addClass("active");
-			}
-		}
-	});
+	// setInterval(function() {
+	// 	var randomNumb = Math.floor(Math.random() * 37);
+	// 	var $randomLight = $lights.eq(randomNumb);
+	// 	$randomLight.toggleClass("active");
+
+	// }, 500);
+
+	// setInterval(function() {
+	// 	var randomNumb = Math.floor(Math.random() * 37);
+	// 	var $randomLight = $lights.eq(randomNumb);
+	// 	$randomLight.toggleClass("active");
+
+	// }, 800);
 
 /***/ },
 /* 1 */
